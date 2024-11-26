@@ -260,3 +260,18 @@ section.portifolio .flex{
 .overlay:hover{
     opacity: 1;
 }
+
+@media screen and (max-width: 1020px) {
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo-site .flex{
+        flex-direction: column-reverse;
+    }
+
+    /* cabecalho */
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+}
