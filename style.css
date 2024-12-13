@@ -271,7 +271,7 @@ section.portifolio .flex{
     }
 
     /* cabecalho */
-    .menu-desktop, .btn-contato{
+    .menu-desktop, .btn-contato .logo{
         display: none;
     }
 }
